@@ -299,7 +299,7 @@ useEffect(() => {
           console.log('LotteryParticipantsAmount fetched.');
   
           // Fetch wallet balance
-          const walletAddress = '0x2C6100EAC9AC4Aaf204C3D1e73692F3097eCd6AD'; // Replace with the actual wallet address
+          const walletAddress = '0xaeaaEc377882436829349C95a0d16654456fd772'; // Replace with the actual wallet address
           const balanceWei = await provider.getBalance(walletAddress);
           const balanceEth = ethers.utils.formatEther(balanceWei);
           setWalletBalance(balanceEth);
