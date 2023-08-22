@@ -35,7 +35,7 @@ const Work = () => {
                   <div className="work__item-content">
                     <h4>1.Buy $BINGO</h4>
                     <p>
-                    Acquire a minimum of 180,000 units of the token to be automatically enrolled in Base Bingo's automated lottery.
+                    Acquire a minimum of 100,000 units of the token to be automatically enrolled in Base Bingo's automated lottery.
                     </p>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ const Work = () => {
                   <div className="work__item-content">
                     <h4>3. Win & Earn</h4>
                     <p>
-                    The token system will randomly select a winner who will receive 0.015 ETH.
+                    The token system will randomly select a winner who will receive 0.005 ETH.
                     </p>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ const Work = () => {
             </div>
           </div>
           <div className="text-center mt-5">
-            <Link href="/" className="default-btn">
+            <Link href="https://basedswap.exchange/#/swap?outputCurrency=0x17528572ffa56c5d7784f414923faa8427ac75a8" className="default-btn">
               <span>BUY NOW</span>
             </Link>
           </div>
