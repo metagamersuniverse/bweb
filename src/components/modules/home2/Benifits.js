@@ -42,10 +42,10 @@ function Benifits() {
                     />
                   </div>
                   <div className="benifit__item-content">
-                    <h4>Pandasale</h4>
+                    <h4>BasedSwap</h4>
                     <p>
                       
-Innovating the EVM ecosystem through the AIO DeFi Launchpad
+                    BASED DEX ON BASE
                     </p>
                   </div>
                 </div>
