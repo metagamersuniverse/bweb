@@ -414,7 +414,7 @@ return (
                           </li>
                           <li className="project__infolist-item">
                             <p className="project__infolist-name">
-                              Total Participent
+                              Total Participant
                             </p>
                             <p className="project__infolist-data">{lotteryParticipantsAmount}</p>
                           </li>
