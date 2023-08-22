@@ -40,11 +40,8 @@ function Banner() {
                 <h1>
                   BINGO <br /> LET The Fun &amp; BEGIN{" "}
                 </h1>
-                <div className="pc-only">
-                  <CounterTwo />
-                </div>
                 <Spacer></Spacer>
-                <Link href="#" className="default-btn">
+                <Link href="https://doc.basebingo.xyz/" className="default-btn">
                   <span>Explore Bingo</span>
                 </Link>
               </div>
