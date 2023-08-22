@@ -1,0 +1,44 @@
+/* NewsTicker.module.css */
+.ticker {
+    overflow: hidden;
+    width: 100%;
+    backgroundColor: "darkturquoise";
+  }
+  
+  .tickerContainer {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 40s linear infinite;
+  }
+  
+  .tickerItemWrapper {
+    display: inline-block;
+  }
+  
+  .tickerItem {
+    padding: 10px 20px; /* Adjust the padding values to control spacing around the headline text */
+    color: white; /* Set the desired text color here */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(30%);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes stackHeadline {
+    0%, 100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+  }
