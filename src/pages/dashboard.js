@@ -155,10 +155,10 @@ export default function Data() {
       console.error("Error copying text to clipboard:", error);
     }
   };
-  const [contractAddress2, setContractAddress2] = useState('0xaeaaEc377882436829349C95a0d16654456fd772');
+  const [contractAddress2, setContractAddress2] = useState('0x9fCF7C22Cc37de6aE77A4A2b907854246b9e6691');
   const [totalRewardsGiven, setTotalRewardsGiven] = useState(ethers.BigNumber.from(0));
   const [isCopied, setIsCopied] = useState(false);
-  const contractAddress1 = '0x17528572ffa56c5d7784f414923faa8427ac75a8'; // Replace with the actual contract address
+  const contractAddress1 = '0xB6956F4122111266777C06Ea297F4A374Df4eF28'; // Replace with the actual contract address
   const [lotteryRound, setLotteryRound] = useState('');
   const [lotteryParticipantsAmount, setLotteryParticipantsAmount] = useState('');
   const [lotteryExecuteAmount, setLotteryExecuteAmount] = useState('');
