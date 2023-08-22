@@ -444,13 +444,13 @@ return (
                       </div>
                       <div className="project__item-bottom">
                         <Link
-                          href="#"
+                          href="https://www.dextools.io/app/en/base/pair-explorer/0xb9070f5596261c6888eab2a4e72531ddd8b33b18"
                           className="default-btn default-btn--small"
                         >
                           Chart
                         </Link>
                         <Link
-                          href="#" className="default-btn default-btn--small"
+                          href="https://basedswap.exchange/#/swap?outputCurrency=0x17528572ffa56c5d7784f414923faa8427ac75a8" className="default-btn default-btn--small"
                         >
                           BUY NOW
                         </Link>
